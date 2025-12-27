@@ -1,0 +1,88 @@
+# .gitignore generado: excluye secretos, entornos, artefactos y archivos de estado
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Unit test / coverage
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+*.tfvars.json
+*.tfvars.*
+
+# AWS / credentials
+.aws/
+credentials
+credentials.json
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.jks
+*.crt
+*.der
+*.pfx
+
+# Misc
+node_modules/
+.vagrant/
+*.bak
